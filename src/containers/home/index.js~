@@ -1,0 +1,14 @@
+import React, { Component } from 'react'
+import HomeModel from '../../components/home'
+
+export default class Home extends Component{
+    render(){
+        return(
+            <HomeModel />
+        )
+    }
+}
+
+const mapStateToProps = state =>({
+    home: state.home
+})
